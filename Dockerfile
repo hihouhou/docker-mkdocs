@@ -9,7 +9,7 @@ FROM debian:latest
 
 MAINTAINER hihouhou < hihouhou@hihouhou.com >
 
-ENV MKDOCS_VERSION 1.5.1
+ENV MKDOCS_VERSION 1.5.2
 
 # Update & install packages for go-callisto dep
 RUN apt-get update && \
